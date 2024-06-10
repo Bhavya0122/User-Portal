@@ -1,0 +1,83 @@
+.userTable {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .header input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    
+  }
+  
+  .header button {
+    padding: 8px 16px;
+    margin-left: 5px;
+    background-color: #0080FF;
+    color:white;
+    border: none;
+  }
+  .header :hover{
+    background-color:  #147EE8;
+  }
+  
+  .tbl{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tbl thead {
+    background-color: #f9f9f9;
+  }
+  
+  .tbl th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .tbl th {
+    background-color:  #DBE6FF;
+    font-weight: bold;
+  }
+  
+  .tbl tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  .fnt
+  {
+    font-weight: bold;
+  }
+  .clr
+  {
+    color:#989898;
+
+  }
+  
+  .group-btn {
+    margin-right: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .group-group-2 {
+    background-color: #66c2a4;
+  }
+  
+  .group-group-4 {
+    background-color: #8da0cb;
+  }
+  
+  .group-group-5 {
+    background-color: #fc8d62;
+  }
+  

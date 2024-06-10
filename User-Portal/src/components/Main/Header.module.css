@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .userProfile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profilePicture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .userName {
+    font-weight: bold;
+  }
+  
+  .viewProfile {
+    font-size: 0.8rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .viewProfile:hover {
+    text-decoration: underline;
+  }
+  

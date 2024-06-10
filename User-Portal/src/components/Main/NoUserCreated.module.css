@@ -1,0 +1,34 @@
+.mainContent {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  .noUsers {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .noUsers-image {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .noUsers p {
+    margin-bottom: 20px;
+    color: #777;
+    font-size: 1.2rem;
+  }
+  .createUsersButton {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color:#0080FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .createUsersButton:hover {
+    background-color: #147EE8;
+  }
+  
